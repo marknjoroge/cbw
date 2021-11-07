@@ -1,0 +1,22 @@
+Package: cbw
+Type: Package
+Title: Functions for Bayes inference
+Version: 1.0
+Date: 2020-06-13
+Author: Siddhartha Chib
+Maintainer: <chib@wustl.edu>
+Description: Functions for Bayes inference
+License: GPL (>= 2)
+Depends: R (>= 3.2.0), stats, graphics, coda (>= 0.19-1), devtools (>=
+        2.3), roxygen2 (>= 6.1.1), quantmod (>= 0.4.17), xts (>=
+        0.9-0), ucminf (>= 1.1-4), numDeriv (>= 2.11.1), ggplot2 (>=
+        3.3), RcppArmadillo (>= 0.9.870)
+Imports: devtools (>= 2.3), coda (>= 0.19-1), roxygen2 (>= 6.1.1), Rcpp
+        (>= 1.0.4), RcppArmadillo (>= 0.9.870), quantmod (>= 0.4.17),
+        lubridate (>= 1.7), xts (>= 0.9-0), ucminf (>= 1.1-4), numDeriv
+        (>= 2.11.1), reshape2 (>= 1.4), ggplot2 (>= 3.3), scales (>=
+        1.0), grid
+LinkingTo: Rcpp, RcppArmadillo, coda
+LazyData: true
+RoxygenNote: 7.1.1
+Built: R 4.1.1; x86_64-apple-darwin17.0; 2021-09-26 04:55:57 UTC; unix

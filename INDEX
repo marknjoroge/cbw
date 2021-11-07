@@ -1,0 +1,192 @@
+MCMCbinprobit           'MCMCbinprobit' Bayesian Albert-Chib (1993)
+                        estimation of the binary probit model
+MCMCheterog             MCMCheterog does Bayes estimation of the
+                        heteroskedastic model by Kim, Shephard and Chib
+                        (1998) and the Chib and Greenberg (2013) method
+MCMCheterot             MCMCheterot does Bayes estimation of the
+                        heteroskedastic student-t model by Kim,
+                        Shephard and Chib (1999) and the Chib and
+                        Greenberg (2013) method
+MCMCnonpar              MCMCnonpar does Bayes estimation of the
+                        nonparametric model by the Chib and Greenberg
+                        (2010) method
+MCMCpanelg              MCMCpanelg does Bayes estimation of the
+                        Gaussian panel model by Algorithm 2 of Chib and
+                        Carlin (1999)
+MCMCregpoiss            MCMCregpoiss does Bayes estimation of the
+                        Poisson reg model
+MCMCregresschangeg      MCMCregresschangeg does Bayes estimation of the
+                        Gaussian change-point regression by the Chib
+                        (1998) method
+MCMCregressdpm          MCMCregressdpm does Bayes estimation of the DPM
+                        reg model with student-t G0
+MCMCregressg            MCMCregressg does Bayes estimation of the
+                        Gaussian reg model
+MCMCregresst            MCMCregresst does Bayes estimation of the
+                        student-t reg model
+MCMCsureg               MCMCsureg does Bayes estimation of the Gaussian
+                        sure model
+MCMCsuret               MCMCsuret does Bayes estimation of the
+                        student-t sure model
+MCMCsvg                 'MCMCsvg' esimates the Bayesian stochastic
+                        volatility model using Kim, Shephard and Chib
+                        (1998) and Chib, Nardari and Shephard (2002)
+betapanelsim            betapanelsim generates beta in the gaussian
+                        panel model
+calculateprm            calculateprm calculates the prm given prices on
+                        an equity asset
+cbw-package             Functions for Bayes inference
+dg1                     dg1 calculates the log of the Gamma density
+dig1                    dig1 calculates the log of the Inverse-Gamma
+                        density
+dinvpanelsim            dinvpanelsim generates Dinv in the gaussian
+                        panel model
+dmvn1                   dmvn1 calculates the density of MVN on the
+                        log-scale
+dmvt1                   dmvt1 calculates the density of MVt on the
+                        log-scale
+dt1                     dt1 calculates the log density of the
+                        independent student t densities
+dwish1                  dwish1 density of the wishart on the log-scale
+extracttunabrand        extracttunabrand extracts data from the tuna
+                        (bayesm package) data.frame
+ff3download             ff3download downloads Fama-French weekly data
+ff3mdownload            ff3download downloads Fama-French monthly data
+finddensityordinate     finddensityordinate calculates the log ordinate
+                        of a kernel density estimate given a point
+findtriangular          findtriangular calculates a discrete triangular
+                        distribution
+getdat                  getdat gets weekly equity data from Yahoo
+getfinmdat              getfinmdat gets and returns monthly prm of
+                        funds and the sp500 index plus FF5 factors
+getfinwdat              getfinwdat gets and returns weekly prm of funds
+                        and the sp500 index plus FF3 factors
+getmdat                 getmdat gets monthly equity data from Yahoo
+getmrskfree             getmrskfree gets monthly 3-month tbill data
+                        from Yahoo
+getrskfree              getrskfree gets weekly 3-month tbill data from
+                        Yahoo
+ggtsplot                ggtsplot plots one or more series
+lagdf                   lagdf takes lags of columns of data.frame
+lagnew                  lagnew calculates the lag of a vector or a ts
+                        or xts object
+lamregsim               lamregsim generates lambda in the grouped prior
+                        reg model
+lamstsim                lamstsim generates lambda in the student-t reg
+                        model
+likmus2                 likmus2 calculates the log likelihood value for
+                        a sample from N(mu,s2)
+logmarglik              logmarglik extracts the log marginal likelihood
+                        from MCMC output
+makebayesportfolioaftercapmsv
+                        'makebayesportfolioaftercapmsv' make a Bayesian
+                        mean-variance portfolio from the CAPM implied
+                        covariance matrix
+makebayesportfolioaftersureg
+                        'makebayesportfolioaftersureg' make a Bayesian
+                        mean-variance portfolio after fitting MCMCsureg
+makebayesportfolioaftersuret
+                        'makebayesportfolioaftersuret' make a Bayesian
+                        mean-variance portfolio after fitting MCMCsuret
+makedatdfls             makedatdfls is a utilty function
+makehierpaneldat        makehierpaneldat makes the y, X, W and ind data
+                        in the hierarchical gaussian panel model
+makemodelformulas       'makemodelformulas' makes formulas from all
+                        possibles of xnames
+makepaneldat            makepaneldat makes the y, X, W and ind data in
+                        the gaussian panel model
+makeplot                makeplot is a utility function to do nonpar
+                        plotting
+makesubsets             'makesubsets' makes all subsets of names in a
+                        data-frame
+marglik                 marglik extracts the log marginal likelihood
+                        from MCMC output
+maximize                maximize maximizes the function loglik over
+                        theta - this is a wrapper to the optim function
+minimize                minimize minimizes the function loglik (sent in
+                        as negative loglik) over theta - this is a
+                        wrapper to the ucminf function
+modelorder              modelorder summarizes the models by posterior
+                        model probabilities
+mvrmat                  mvrmat generate the multivariate regression y
+                        and X matrices
+paramg                  paramg calculates the gamma(a/2,b/2)
+                        distribution given mean and sd
+paramg0                 paramg0 calculates the gamma(shape,rate)
+                        distribution given mean and sd
+paramig                 paramig calculates the
+                        inverse-gamma(nu/2,delta/2) distribution given
+                        mean and sd
+paramlogn               paramlogn calculates the parameters of the
+                        log-normal distribution
+pdfavg                  pdfavg calculates the mean of densities given
+                        log densities
+plot.nonpar             plot.nonpar does plotting of nonparametric
+                        function estimates from MCMCnonpar
+plotbayesportfolio      'plotbayesportfolio' plots the portfolio output
+plotden                 plotden does kernel density plots
+plotdisc                plotdisc does discrete distribution plots
+plotnormalt             plotnormalt does normal and student-t density
+                        plots
+plotxts                 plotxts plots a single or multiple time series
+                        which can be xts objects or not
+postmod                 postmod calculates the posterior model
+                        probabilities from log marginal likelihoods
+predictpanelg           predictpanelg generates predictions from a
+                        gaussian panel model
+predictregressg         predictregressg generates predictions from a
+                        gaussian regression
+predictregresst         predictregresst generates predictions from a
+                        student-t regression
+predictsureg            predictsureg generates predictions from a
+                        gaussian SURE
+predictsuret            predictsuret generates predictions from a
+                        gaussian SURE
+rcpparma_hello_world    Set of functions in example RcppArmadillo
+                        package
+rgamss                  rgamss Sample small-shape gamma random
+                        variables via accept-reject
+rigamma                 rigamma generates a random draw from the
+                        inverse-gamma distribution
+rtg                     rtg samples a t-distribution with a parameter
+                        for dispersion
+rwish                   rwish generates a random Wishart draw
+s2panelsim              s2panelsim generates s2 in the gaussian panel
+                        model
+sample2                 sample2 generates draws from a bivariate
+                        discrete distribution
+sample3                 sample3 generates draws from a trivariate
+                        discrete distribution
+samplethepriormus2      samplethepriormus2 samples the prior and then
+                        outcomes from a N(mu,s2) model
+samplethepriornonpar    samplethepriornonpar samples the prior and then
+                        outcomes in the Gaussian nonparametric model by
+                        the Chib and Greenberg (2010) method
+samplethepriorpanelg    samplethepriorpanelg samples the prior and then
+                        outcomes from a Gaussian panel model
+samplethepriorregg      samplethepriorregg samples the prior and then
+                        outcomes from a regression model
+samplethepriorsureg     samplethepriorsureg samples the prior and then
+                        outcomes from a Gaussian SURE model
+sigma                   sigma calculates the draws of sigma from the
+                        MCMCregressg and MCMCregresst functions
+summaryb                summaryb produces a basic summary
+summarycorr             summarycorr gives posterior mean and posterior
+                        sd of correlation parameters in sureg and suret
+                        models
+summarymcmc             summarymcmc produces summary given MCMC draws
+                        from cbw package
+suremat                 suremat generate the sure y and X matrices
+tau2regsim              tau2regsim generates tau2 in the gaussian reg
+                        model
+tau2stsim               tau2stsim generates tau2 in the student-t reg
+                        model
+theme_white             theme_white is a utility function
+trainpriormvrg          trainpriormvrg calculates the training sample
+                        prior in the Gaussian MVR model
+trainpriorpanel         trainpriorpanel calculates the training sample
+                        prior in the Gaussian panel model
+trainpriorregg          trainpriorregg calculates the training sample
+                        prior in the Gaussian regression model
+trainpriorsureg         trainpriorsureg calculates the training sample
+                        prior in the Gaussian sure model
